@@ -1,0 +1,17 @@
+.image-cover{
+	position: relative;
+	margin: auto;
+	justify-content: center;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.image-cover img{
+	max-height: 200px;
+	width: auto;
+
+}
+
+.text-orange{
+	color: #FF924E;
+}

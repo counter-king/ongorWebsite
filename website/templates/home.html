@@ -1,0 +1,192 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+	<div class="untree_co-hero overlay" style="background-image: url({% static 'website/images/back_1.jpg' %});">
+		<div class="container">
+			<div class="row align-items-center justify-content-center">
+				<div class="col-12">
+					<div class="row justify-content-center">
+						<div class="col-lg-6 text-center">
+							<span class="caption" data-aos="fade-up" data-aos-delay="0">mazali taomlardan bahra oling</span>
+							<h1 class="mb-4 heading text-orange" data-aos="fade-up" data-aos-delay="100">O'NG'OR <br> DAM OLISH MASKANI</h1>
+							<div class="mb-4 text-white desc" data-aos="fade-up" data-aos-delay="200">
+								<p>Salqin tog'lar bag'rida joylashgan choyxonamizda sizni kutamiz!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> 
+		</div> 
+		<ul class="list-unstyled social-hero-section mb-0">
+			<li data-aos="fade-left" data-aos-delay="0"><a href="https://t.me/joinchat/B2sziU0OYb3NJb13uRAekQ" target="_blank"><span class="icon-telegram"></span></a></li>
+			<li data-aos="fade-left" data-aos-delay="100"><a href="https://www.instagram.com/ungordacha/" target="_blank"><span class="icon-instagram"></span></a></li>
+			<li data-aos="fade-left" data-aos-delay="200"><a href="https://www.facebook.com/profile.php?id=100048134802128" target="_blank"><span class="icon-facebook"></span></a></li>
+			<li data-aos="fade-left" data-aos-delay="300"><a href="https://www.youtube.com/channel/UCo5983NIBGe1g-BVvn9z0-Q" target="_blank"><span class="icon-youtube"></span></a></li>
+		</ul>
+	</div> 
+
+
+	
+
+	<div class="untree_co-section bg-img fixed overlay" style="background-image: url({% static 'website/images/back1.jpg' %});">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 mb-5 mb-lg-0 mr-auto testimonial-wrap" data-aos="fade-up" data-aos-delay="0">
+					<span class="subtitle">Biz haqimizdagi fikrlar</span>
+					<h2 class="mb-5">Minnatdor <strong class="text-primary">Mijozlar</strong></h2>
+					<div class="owl-carousel wide-slider-testimonial">
+						<div class="item">
+							<blockquote class="block-testimonial">
+								<div class="author">
+									<img src="{% static 'website/images/person_1.jpg' %}" alt="Free template by TemplateUX">
+									<h3>Rashid Otabekov</h3>
+									<p class="position mb-5">Mahalliy sayyoh</p>
+								</div>
+								<p>
+									<div class="quote">&ldquo;</div>
+								&ldquo;Zo'r choyxona! Hammani taklif qilaman&rdquo;</p>
+							</blockquote>
+						</div>
+						<div class="item">
+							<blockquote class="block-testimonial">
+								<div class="author">
+									<img src="{% static 'website/images/person_2.jpg' %}" alt="Free template by TemplateUX">
+									<h3>Suyunbek Jomakeyev</h3>
+									<p class="position mb-5">Qirg'izistonlik mehmon</p>
+								</div>
+								<p>
+									<div class="quote">&ldquo;</div>
+								&ldquo;Oilam bilan O'zbekistonga sayohatga kelgan edik. O'ng'or choyxonasida bir kecha tunab qoldik. U yerdagi sharoitlar zamon talablariga to'liq javob beradi. Har bir oila uchun qurilgan alohida o'tovlardan iborat hovlida hordiq chiqardik.&rdquo;</p>
+							</blockquote>
+						</div>
+						<div class="item">
+							<blockquote class="block-testimonial">
+								<div class="author">
+									<img src="{% static 'website/images/person_3.jpg' %}" alt="Free template by TemplateUX">
+									<h3>Rob Smith</h3>
+									<p class="position mb-5">Chet ellik mehmon!</p>
+								</div>
+								<p>
+									<div class="quote">&ldquo;</div>
+								&ldquo;The most part that I like about "Ungor" is that there is playground called painball. I played with my children.&rdquo;</p>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+					<span class="subtitle">Galereya</span>
+					<h2 class="mb-5">Foto <strong class="text-primary">Galereya</strong></h2>
+					<div class="row">
+						<div class="col-6 mb-4">
+							<a href="{% static 'website/images/gal1.jpg' %}" data-fancybox="gallery" class="gal"><img src="{% static 'website/images/gal1.jpg' %}" alt="Image" class="img-fluid"></a>
+						</div>
+						<div class="col-6 mb-4">
+							<a href="{% static 'website/images/gal2.jpg' %}" data-fancybox="gallery" class="gal"><img src="{% static 'website/images/gal2.jpg' %}" alt="Image" class="img-fluid"></a>
+						</div>
+						<div class="col-6 mb-4">
+							<a href="{% static 'website/images/gal3.jpg' %}" data-fancybox="gallery" class="gal"><img src="{% static 'website/images/gal3.jpg' %}" alt="Image" class="img-fluid"></a>
+						</div>
+						<div class="col-6 mb-4">
+							<a href="{% static 'website/images/gal4.jpg' %}" data-fancybox="gallery" class="gal"><img src="{% static 'website/images/gal4.jpg' %}" alt="Image" class="img-fluid"></a>
+						</div>
+						<div class="col-12">
+							<a href="{% url 'gallery' %}" class="btn btn-primary">More Galleries</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> 
+	</div>
+
+
+
+
+
+
+	<div id="services" class="untree_co-section">
+		<div class="container">
+			<div class="row mb-4 justify-content-center">
+				<div class="col-md-7 text-center mb-5" data-aos="fade-up" data-aos-delay="0">
+					<span class="subtitle">Xizmatlar</span>
+					<h2>Bizning <strong class="text-primary">Xizmatlarimiz</strong></h2>
+				</div>
+			</div>
+			<div class="events-slider owl-carousel" data-aos="fade-up" data-aos-delay="100">
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6">
+						<img src="{% static 'website/images/paintball.jpg' %}" alt="Image" class="img-fluid">
+					</div>
+					<div class="col-lg-5">
+						<span class="event-price d-block">Peyntbol</span>
+						<h3 class="mb-4">(Paintball) o'yingohi</h3>
+						<p class="mb-4"></p>
+					</div>
+				</div>
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6 order-lg-2">
+						<img src="{% static 'website/images/party_2.jpg' %}" alt="Image" class="img-fluid">
+					</div>
+					<div class="col-lg-5">
+						<span class="event-price d-block">100 kishilik</span>
+						<h3 class="mb-4">to'yxona</h3>
+						<p class="mb-4"></p>
+					</div>
+				</div>
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6">
+						<img src="{% static 'website/images/futbol_yard.jpeg' %}" alt="Image" class="img-fluid">
+					</div>
+					<div class="col-lg-5">
+						<span class="event-price d-block">Futbol</span>
+						<h3 class="mb-4">maydoni</h3>
+						<p class="mb-4"></p>
+					</div>
+				</div>
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6">
+						<img src="{% static 'website/images/otov.jpg' %}" alt="Image" class="img-fluid">
+					</div>
+					<div class="col-lg-5">
+						<span class="event-price d-block">O'tov</span>
+						<h3 class="mb-4">hovlilari</h3>
+						<p class="mb-4"></p>
+					</div>
+				</div>
+				<div class="row align-items-center justify-content-between">
+					<div class="col-lg-6">
+						<img src="{% static 'website/images/ongor_back.jpg' %}" alt="Image" class="img-fluid">
+					</div>
+					<div class="col-lg-5">
+						<span class="event-price d-block">Umumiy</span>
+						<h3 class="mb-4">ovqatlanish</h3>
+						<p class="mb-4"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+
+
+
+	<div class="untree_co-section bg-img py-5 fixed overlay" style="background-image: url({% static 'website/images/back2.jpg' %});">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-7 text-center">
+					<span class="subtitle">Taom buyurtma qilish</span>
+					<h3>Hoziroq Taom Buyurtma qiling!</h3>
+					<br>
+					<p class="mb-0"><a href="{% url 'order' %}" class="btn btn-primary">Buyurtma qilish</a></p>
+				</div>
+			</div>
+		</div> 
+	</div> 
+
+
+	{% endblock %}
+
+
+	
